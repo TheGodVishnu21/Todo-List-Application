@@ -1,0 +1,57 @@
+body {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    background-image: url('todo.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.todo-title {
+    margin: 20px 0;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.input-group input {
+    border-radius: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-top: 10px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.5rem;
+    margin: 5px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.completion-status {
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+.completed-status {
+    color: green;
+}
+
+.pending-status {
+    color: red;
+}
